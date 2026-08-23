@@ -1,0 +1,7 @@
+# [popups] — dark gradient vibe
+[popups]
+background       = "#26282c"
+background-alpha = 1.0
+text             = "#c9ccd1"
+border           = "90deg #4a4e55 #2a2d31 #1a1c1f"
+border-alpha     = 1.0

@@ -1,0 +1,5 @@
+# [hyprland] — dark gradient borders to match taskbar
+
+[hyprland]
+active-border            = "90deg #4a4e55 #2a2d31 #1a1c1f"
+active-border-foreground = "#c9ccd1"

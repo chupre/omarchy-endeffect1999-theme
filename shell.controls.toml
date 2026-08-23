@@ -1,0 +1,31 @@
+# [controls] override for vista-dark: beveled interactive chrome.
+# Borders accept gradient specs, so every button/dropdown/field in the shell
+# gets a subtle top-lit bevel instead of a flat outline.
+
+[controls]
+normal-color        = "#d7dade"
+normal-fill-alpha   = 0.05
+normal-border       = "90deg #565b63 #2a2d31"
+normal-border-width = 1
+normal-border-alpha = 0.55
+
+hover-cursor-color        = "#e6e9ed"
+hover-cursor-fill-alpha   = 0.10
+hover-cursor-border       = "90deg #585d65 #33363b"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.7
+
+focus-color        = "#e6e9ed"
+focus-fill-alpha   = 0.10
+focus-border       = "90deg #585d65 #33363b"
+focus-border-width = 1
+focus-border-alpha = 0.7
+
+selected-color        = "#e6e9ed"
+selected-fill-alpha   = 0.14
+selected-border       = "90deg #585d65 #2a2d31"
+selected-border-width = 1
+selected-border-alpha = 0.85
+
+pressed-fill-alpha   = 0.22
+selection-fill-alpha = 0.35

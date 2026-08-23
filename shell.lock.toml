@@ -1,0 +1,13 @@
+# [lock] — dark gradient vibe
+[lock]
+background       = "#26282c"
+background-alpha = 0.88
+text             = "#c9ccd1"
+placeholder      = "#7a8a9e"
+text-error       = "#d97b6c"
+border           = "90deg #4a4e55 #2a2d31 #1a1c1f"
+border-active    = "90deg #585d65 #33363b"
+border-error     = "#d97b6c"
+border-alpha     = 1.0
+selection        = "#7a7f87"
+selection-alpha  = 0.45
