@@ -1,0 +1,15 @@
+# [launcher] — low-contrast graphite gradient for tall surfaces
+[launcher]
+background                = "90deg #303238 #292b2f #24262a"
+background-alpha          = 0.98
+text                      = "#c9ccd1"
+border                    = "90deg #4a4e55 #2a2d31 #1a1c1f"
+border-alpha              = 1.0
+scrim                     = "#0a0b0d"
+scrim-alpha               = 0.55
+scroll-fade-alpha         = 0.0
+selected-background       = "#33363b"
+selected-background-alpha = 0.9
+selected-text             = "#d7dade"
+selected-border           = "90deg #585d65 #33363b"
+selected-border-alpha     = 0.85

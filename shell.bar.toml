@@ -1,0 +1,30 @@
+# [bar] override for Endeffect 1999 Dark: gradient slab with bevel hairlines + grain.
+#
+# Gradient syntax (parsed by the shell's BorderGeometry):
+#   "<angle>deg <color> <color> ..." — any number of stops, resolved left to
+#   right along the angle. Angle space is the bar's own box:
+#   0deg = left->right, 90deg = top->bottom, 180deg = right->left.
+# Stock shell consumers use only the first stop, so the theme stays usable
+# with the unmodified bar too.
+#
+# Extra keys consumed by the <user>.bar surface clone:
+#   bevel-top / bevel-top-alpha       1px highlight line at the leading edge
+#   bevel-bottom / bevel-bottom-alpha 1px shade line at the trailing edge
+#   noise                             tiled grain overlay opacity (0 disables)
+# Bevel keys fall back to auto-derived lighter/darker shades of background.
+
+[bar]
+background       = "90deg #3a3e44 #26282c #1a1c1f"
+background-alpha = 1.0
+text             = "#d7dade"
+active           = "#d97b6c"
+
+bevel-top          = "#585d65"
+bevel-top-alpha    = 1.0
+bevel-bottom       = "#0a0b0d"
+bevel-bottom-alpha = 0.0
+noise              = 0.0
+
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28

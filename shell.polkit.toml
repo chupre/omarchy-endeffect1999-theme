@@ -1,0 +1,12 @@
+# [polkit] — dark gradient vibe
+[polkit]
+background       = "#26282c"
+background-alpha = 1.0
+text             = "#c9ccd1"
+text-error       = "#d97b6c"
+border           = "90deg #4a4e55 #2a2d31 #1a1c1f"
+border-error     = "#d97b6c"
+border-alpha     = 1.0
+scrim            = "#0a0b0d"
+scrim-alpha      = 0.6
+accent           = "#7a7f87"
